@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  width: 300px;
+  min-height: 350px;
+  background-color: #161826;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+  top: 50px;
+}
+
+.containerHeader {
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+  .containerHeader {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    width: 450px;
+  }
+}

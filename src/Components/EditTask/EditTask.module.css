@@ -1,0 +1,16 @@
+.modalHeader {
+  color: #fff;
+  padding: 1rem;
+  background-color: #8a01fb;
+  text-align: left;
+}
+
+.editForm {
+  padding: 1rem;
+  display: flex;
+}
+
+input {
+  width: 100%;
+  outline: none;
+}

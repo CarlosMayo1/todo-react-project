@@ -1,0 +1,16 @@
+.todoList {
+  position: relative;
+  padding: 0;
+}
+
+.todoListEmpty {
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .todoListEmpty {
+    font-size: 14px;
+  }
+}

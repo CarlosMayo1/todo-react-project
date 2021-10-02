@@ -1,0 +1,44 @@
+/* ============================ */
+/* MODAL HEADER */
+/* ============================ */
+
+.modalHeader span {
+  display: flex;
+  align-items: center;
+  color: #dc3545;
+  padding: 0.5rem;
+  justify-content: center;
+}
+
+.modalHeader svg {
+  font-size: 60px;
+}
+
+/* ============================ */
+/* MODAL BODY */
+/* ============================ */
+
+.modalBody p {
+  margin: 0.5rem;
+}
+
+/* ============================ */
+/* MODAL FOOTER */
+/* ============================ */
+
+.modalFooter {
+  padding: 2rem;
+}
+
+.modal-btn {
+  background: #0d6efd;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 1rem;
+}

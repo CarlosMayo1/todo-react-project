@@ -1,0 +1,26 @@
+.todoItem {
+  /* background-color: `{props.random_color}`; */
+  padding: 0.5rem;
+  border-radius: 5px;
+  list-style: none;
+  margin: 0.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.todoItem p {
+  width: 100%;
+  font-size: 14px;
+}
+
+.todoItemControllers {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.todoItemControllers svg {
+  margin: 0.2rem;
+  cursor: pointer;
+}
